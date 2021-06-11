@@ -94,7 +94,7 @@ switch firefox browser to user jmeter port
 click on start in Https test script recorder   
 Open a tab an copy paste your petclinic URL   
 ```shell script
-     http://<your ip address>:9090/petclinic  
+     http://172.81.182.163:9090/petclinic  
 ```
 Accept the temporary certificates created by JMeter   
 Check if jmeter is recording all your actions by clicking on Thread Group   

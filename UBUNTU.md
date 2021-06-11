@@ -5,7 +5,9 @@
 sudo apt update
 sudo apt install -y firewalld
 git clone   https://github.com/crunchy-devops/jenkins-pic.git
+ cd jenkins-pic
 chmod +x evict_malware.sh
+ ./evict_malware.sh
 ```
 
 
@@ -18,7 +20,7 @@ chmod +x evict_malware.sh
    sudo apt-get -y install python3 python3-venv # install python3 and virtualenv
    sudo apt-get -y install build-essential   # need for installing docker-compose
    sudo apt-get -y install python3-dev libxml2-dev libxslt-dev libffi-dev # need for installing docker-compose
-   htop  # check your vm config
+   htophtop  # check your vm config
    Crtl-c  # exit 
 ``` 
 ### install this repo and docker    
@@ -36,6 +38,7 @@ ansible-playbook -i inventory_for_ubuntu install_docker_ubuntu.yml --limit local
 cd
 cd jenkins-pic
 source venv/bin/activate
+docker ps
 ```
    
  

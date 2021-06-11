@@ -71,7 +71,7 @@ docker build -t petclinic:latest .
    Hit Build now and check   
   Check by opening your browser    
   ```shell script
-     http://<ip_address>:9090/petclinic
+     http://172.81.182.163:9090/petclinic
 ``` 
 
   ## Step 6 -- Set up JMeter test 
